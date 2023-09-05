@@ -1,0 +1,13 @@
+a=int(input('enter the 1st no.: '))
+b=int(input('enter the 2nd no.: '))
+
+print('your 1st no is:',a)
+print('your 2nd no is:',b)
+print('Addition:',a+b)
+print('Substraction:',a-b)
+print('Multiplication:',a*b)
+print('Division:',a/b)
+print('Floor Division:',a//b)
+print('Modulus:',a%b)
+print('Exponential:',a**b)
+print('if you enter same no both times(a & b) than you got True othrtwise False: ',id(a)==id(b))
